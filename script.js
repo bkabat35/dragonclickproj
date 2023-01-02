@@ -3,7 +3,10 @@ import { increment as incr2 } from "./clicks2.mjs";
 console.log('script.js')
 const modules1 = document.getElementById('modules1');
 const dragon = document.getElementById('dragon');
-
+const div = document.querySelector('dragon-clicker');
+//let classes1 = document.getElementById('modules1');
+//let classes2 = document.getElementById('dragon-clicker'); 
+//console.log(classes1, classes2);
 //Module
 modules1.addEventListener( 'click', e => {
     e.target.innerText = incr1();
