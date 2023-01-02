@@ -39,4 +39,4 @@ document.getElementById('div').addEventListener('click', e =>{
     }
 }
 let class1 = new Clicker(classes1, classes2);
-console.log(class1);
+console.log(class1);*/
