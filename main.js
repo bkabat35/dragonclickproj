@@ -1,6 +1,5 @@
 import { increment as modIncr1 } from "./clicks.mjs";
 import { increment as modIncr2 } from "./clicks.mjs";
-import { increment as modIncr3 } from "./clicks.mjs";
 
 const modules1 = document.getElementById('div');
 const dragon = document.getElementById('div');
