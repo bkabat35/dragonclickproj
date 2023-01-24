@@ -1,4 +1,4 @@
-//View for Spawner Premium
+//View - Spawner Premium
 const view = {
     init(){
         view.render()
