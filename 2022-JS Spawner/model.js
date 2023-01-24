@@ -1,3 +1,4 @@
+//Model - Spawner Premium
 const model = {
     dragons: [],
     dragonTypes: ['mountain', 'flame', 'water', 'metallic', 'sky', 'forest'],

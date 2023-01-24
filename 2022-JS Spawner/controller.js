@@ -1,3 +1,4 @@
+//Controller - Spawner Premium
 const controller = {
     getDragons() {
         return model.dragons
