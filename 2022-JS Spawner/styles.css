@@ -1,0 +1,45 @@
+.dragon-container, button{
+    font-size: 2rem;
+}
+.dragon-container {
+    /*margin: 4rem auto;*/
+    text-align: center;
+    padding: 1rem;
+    width: 200px;
+    color: white;
+    font-size: 12px;
+    border-radius: 15px;
+    text-transform: capitalize;
+    border: 2px solid black;
+}
+button {
+    padding: 0.75rem;
+    text-transform: capitalize;
+}
+.display{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+.clicks{
+    font-size: 20px;
+}
+.water {
+    background-color: blue;
+}
+.flame {
+    background-color: crimson;
+}
+.metallic {
+    background-color: darkgrey;
+}
+.sky {
+    background-color: plum;
+}
+.forest{
+    background-color: forestgreen;
+}
+.mountain{
+    background-color: brown;
+}

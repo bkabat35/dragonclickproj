@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dragon Clicker</title>
-    
+    <script src="script.js" type='module' defer></script>
     <style>
       html{
         background-color: black;
@@ -13,6 +13,9 @@
       #dragon {
         background-color: yellow;
         font-size: 5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
       }
       #modules1 {
         background-color: brown;
@@ -22,9 +25,11 @@
   </head>
 <body>
   <div id="dragon-clicker">
-    <button id="dragon">🐉</button>
-    <button id="modules1">0</button>
-    <script src="script.js" type='module' defer></script>
+    <button id="dragon">0🐉</button>
+  </div>
+
+  <div id="dragon-container">
+      <button id="modules1">0🐲</button>
   </div>
 </body>
 </html>

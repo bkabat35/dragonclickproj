@@ -1,4 +1,4 @@
-let clicks = 0;
+/*let clicks = 0;
 export function increment(){
     return clicks++;
-}
+}*/
